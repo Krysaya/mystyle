@@ -1,7 +1,7 @@
 /*
 
 [rewrite_local]
-^https:\/\/flomoapp\.com\/api\/v1\/user\/me url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/flomo.js
+^https:\/\/flomoapp\.com\/api\/v1\/user\/me url script-response-body https://raw.githubusercontent.com/Krysaya/mystyle/main/rw/contains.js
 [MITM]
 hostname = flomoapp.com
 */
