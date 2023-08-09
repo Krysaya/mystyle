@@ -3,7 +3,7 @@
 [rewrite_local]
 
 通用订阅解锁
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body sub.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Krysaya/mystyle/main/rw/contains2.js
 
 [mitm]
 hostname = buy.itunes.apple.com
